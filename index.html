@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Marvel Quiz App</title>
+	<link rel="stylesheet" href="">
+</head>
+
+<body>
+
+	<header>
+		<h1>Marvel Quiz App</h1>
+	</header>
+
+	<main>
+		<section class="start">
+			<p>Click Here To Start</p>
+			<button class="start-button">GO!</button>
+		</section>
+		
+		<section class="questions-section">
+			<h2 class="question-number">Will display current question number</h2>
+			<h3 class="actual-question">This is where the actual question will go.</h3>
+			<form action="">
+				<input type="radio" name="answer1" value="answer1" id="answer1"> Answer1 <br>
+				<input type="radio" name="answer2" value="answer2" id="answer2"> Answer 2 <br>
+				<input type="radio" name="answer3" value="answer3" id="answer3"> Answer 3 <br>
+				<input type="radio" name="answer4" value="answer4" id="answer4"> Answer 4 <br>
+			</form>
+		</section>
+		
+		<section class="display-message">
+			<h3 class="message">This message will display if the answer was right or wrong</h3>
+			<h3 class="current-score">This will display current score</h3>
+		</section>
+		
+		<section class="final-display">
+			<h2 class="final-score">This will display your final score</h2>
+			<button class="restart-button">Click Here to Play Again!</button>
+		</section>
+		
+	</main>
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="app.js"></script>
+</body>
+
+</html>
