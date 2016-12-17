@@ -1,0 +1,68 @@
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #840C01;
+	color: white;
+}
+
+header img {
+	width: 960px;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+header h1 {
+	text-align: center;
+}
+
+main {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.start,
+.display-message,
+.final-display {
+	text-align: center;
+}
+
+.questions-section {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.actual-question {
+	font-size: 3em;
+}
+
+.display-message img {
+	max-height: 400px;
+}
+
+form {
+	margin-bottom: 50px;
+	font-size: 2em;
+}
+
+input {
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+input[type="radio"] {
+	transform: scale(2);
+	position: relative;
+	bottom: 4px;
+}
+
+button {
+	border-radius: 5px;
+}
+
+.hide {
+	display: none;
+}
+
